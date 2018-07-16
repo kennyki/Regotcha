@@ -5,8 +5,11 @@ module.exports = {
     ['link', {rel: 'icon', href: '/favicon.ico'}]
   ],
   themeConfig: {
+    repo: 'kennyki/regotcha',
+    editLinks: true,
+    editLinkText: 'Add more on GitHub',
     sidebar: [
-      '/',
+      ['/', 'Home'],
       '/angularjs/',
       '/coding/',
       '/css/',
