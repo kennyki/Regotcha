@@ -21,6 +21,7 @@ module.exports = {
       '/singapore/',
       '/traveling/',
       '/vuejs/',
+      '/vuepress/',
       '/webpack/'
     ]
   }
