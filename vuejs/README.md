@@ -120,3 +120,11 @@ mutations: {
   startConversation (state, {me, receiver, messages}) {}
 }
 ```
+
+## Use anchor tag with `@click` to navigate programmatically
+
+Sometimes it's needed for the styles or semantics. You must use *either* `href='#'` or `@click.prevent` to prevent browser's default page navigation:
+
+```html
+<a href='#' @click='doSomethingThenNavigate()'>Go</a>
+```
