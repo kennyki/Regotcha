@@ -1,5 +1,7 @@
 # Regotcha
 
+[![Build Status](https://travis-ci.com/kennyki/regotcha.svg?branch=master)](https://travis-ci.com/kennyki/regotcha)
+
 ```
 Recounting "gotcha!" moments
 ```
