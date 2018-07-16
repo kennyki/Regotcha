@@ -1,0 +1,14 @@
+language: node_js
+node_js:
+  - "node"
+install:
+  - npm install -g vuepress
+script:
+  - vuepress build && cd .vuepress/dist && echo 'www.regotcha.com' > CNAME
+deploy:
+  provider: pages
+  skip-cleanup: true
+  github-token: $GITHUB_TOKEN
+  on:
+    branch: master
+  local-dir: .vuepress/dist

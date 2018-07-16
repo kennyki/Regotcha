@@ -1,11 +1,10 @@
 module.exports = {
   title: 'Regotcha',
   description: 'Recounting "gotcha!" moments',
-  base: '/regotcha/',
+  head: [
+    ['link', {rel: 'icon', href: '/favicon.ico'}]
+  ],
   themeConfig: {
-    nav: [
-      {text: 'Contact', link: '/contact/'}
-    ],
     sidebar: [
       '/',
       '/angularjs/',
