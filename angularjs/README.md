@@ -66,7 +66,7 @@ angular.module('my_page', [])
 )
 ```
 
-# Custom form validator with NgModelController
+## Custom form validator with NgModelController
 
 *Use case*: a number input field that ensures that user enters a value greater than 0.00
 
