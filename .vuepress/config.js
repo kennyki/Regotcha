@@ -13,6 +13,7 @@ module.exports = {
       '/angularjs/',
       '/coding/',
       '/css/',
+      '/github-pages/',
       '/heroku/',
       '/html/',
       '/hubspot/',
