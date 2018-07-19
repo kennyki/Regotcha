@@ -49,3 +49,11 @@ GitHub supports [OAuth access](https://github.com/blog/1270-easier-builds-and-de
 ```
 npm install --save git+https://<generated token>:x-oauth-basic@github.com/my_github_account/my_repo.git#tag
 ```
+
+## The correct way to bump package version
+
+1. Commit all changes
+1. Run `npm version minor` (can be `major` or `patch` too)
+    - Both *package.json* and *package-lock.json* will be updated
+    - Read more on [semantic versioning (semver)](https://docs.npmjs.com/getting-started/semantic-versioning) on which version to bump
+1. Run `git push --tags`
