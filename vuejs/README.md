@@ -128,3 +128,56 @@ Sometimes it's needed for the styles or semantics. You must use *either* `href='
 ```html
 <a href='#' @click='doSomethingThenNavigate()'>Go</a>
 ```
+
+## Display [Vuelidate](https://github.com/monterail/vuelidate) error messages only on submission
+
+```js
+import {required} from 'vuelidate/lib/validators'
+
+Vue.component('SubscriptionForm', {
+  // ...
+  validations: {
+    email: {required}
+  },
+  methods: {
+    submit () {
+      // $invalid is true all the time if a field fails validation
+      // but we don't want to show error message yet
+      if (this.$v.$invalid) {
+        // so we only mark it as $dirty on submission
+        this.$v.$touch()
+        return
+      }
+      // if all fields are valid, reset the $dirty flag for later use (if any)
+      this.$v.$reset()
+      // proceed to submission
+    }
+  }
+})
+```
+
+```pug
+input.form-control(v-model='email', type='email')
+//- $error is equivalent to $dirty && !$pending && $invalid
+.text-danger(v-if='$v.email.$error') Please enter your email
+```
+
+## [Vuelidate](https://github.com/monterail/vuelidate) custom validator expects a Boolean value
+
+```js
+Vue.component('SubscriptionForm', {
+  // ...
+  validations: {
+    email: {
+      required (value) {
+        // assuming a String value,
+        // this will result in TypeError: Cannot read property '__isVuelidateAsyncVm' of undefined
+        return value
+        // so, you must convert it into a Boolean value
+        return !!value
+      }
+    }
+  },
+  // ...
+})
+```
