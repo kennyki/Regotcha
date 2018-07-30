@@ -19,6 +19,7 @@ module.exports = {
       '/hubspot/',
       '/i18n/',
       '/javascript/',
+      '/macos/',
       '/mongodb/',
       '/nodejs/',
       '/scss/',
