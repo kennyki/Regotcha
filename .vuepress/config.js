@@ -24,6 +24,7 @@ module.exports = {
       '/nodejs/',
       '/scss/',
       '/singapore/',
+      '/testcafe/',
       '/traveling/',
       '/vuejs/',
       '/vuepress/',
