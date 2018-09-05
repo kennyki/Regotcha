@@ -62,3 +62,21 @@ Check the [benchmark results](https://tonicdev.com/knyki12/remove-arbitrary-arra
 ## Better way to open a URL in current tab
 
 Use `window.location.href = url` instead of `window.open(url, '_self')` as the later has a [chance to kill the browser](https://stackoverflow.com/a/23394403/940030).
+
+## Use try..catch..finally with async/await
+
+While there are reasons to use a Go-lang style await wrapper, i.e. [await-to-js](https://github.com/scopsy/await-to-js), I find the conventional `try..catch` approach being more straightforward, readable, and require less boilerplate code (need to declare your variables at the top of function) especially when dealing with UI, i.e. start/stop loader.
+
+```js
+async saveProfile () {
+  this.startLoader()
+
+  try {
+    await Profile.save(this.profile)
+  } catch (error) {
+    this.showError(error)
+  } finally {
+    this.stopLoader()
+  }
+}
+```

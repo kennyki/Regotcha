@@ -1,4 +1,5 @@
 module.exports = {
+  port: 8081,
   title: 'Regotcha',
   description: 'Recounting "gotcha!" moments',
   head: [
