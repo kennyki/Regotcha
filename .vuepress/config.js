@@ -12,6 +12,7 @@ module.exports = {
     sidebar: [
       ['/', 'Home'],
       '/angularjs/',
+      '/bootstrap/',
       '/coding/',
       '/css/',
       '/family/',
