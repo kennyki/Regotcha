@@ -181,3 +181,78 @@ Vue.component('SubscriptionForm', {
   // ...
 })
 ```
+
+## Export all components in a folder
+
+*Use case:* Assuming a Vue CLI or Webpack project with a bunch of components, e.g. app-alerts.vue, app-loader.vue in `src/components`
+
+#### Straightforward approach: use an index.js for named exports
+
+```js
+// src/components/index.js
+export { default as AppAlerts } from './app-alerts'
+export { default as AppLoader } from './app-loader'
+```
+
+```js
+// src/views/home.vue
+import { AppAlerts, AppLoader } from '../components'
+```
+
+The *catch*: you need to add the named export manually for every component
+
+#### Dynamic approach: use Webpack's `require.context`
+
+```js
+// src/require-all.js
+import camelCase from 'lodash/camelCase'
+import upperFirst from 'lodash/upperFirst'
+
+// inspirations
+// - https://vuejs.org/v2/guide/components-registration.html#Automatic-Global-Registration-of-Base-Components
+// - https://stackoverflow.com/a/39709236/940030
+// - https://stackoverflow.com/a/30652110/940030
+export default (contextRequire, nameCasers = [ camelCase, upperFirst ]) => {
+  const items = {}
+
+  contextRequire.keys().forEach(fileName => {
+    const item = contextRequire(fileName)
+
+    // Gets the file name regardless of folder depth
+    const actualFileName = fileName
+      .split('/')
+      .pop()
+      .replace(/\.\w+$/, '')
+
+    const name = nameCasers.reduce((result, nameCaser) => nameCaser(result), actualFileName)
+
+    // either default export or named export
+    items[name] = item.default || item
+  })
+
+  return items
+}
+```
+
+```js
+// src/components/index.js
+import requireAll from '../require-all'
+
+export default requireAll(require.context(
+  // The relative path of the folder
+  '.',
+  // Whether or not to look in subfolders
+  false,
+  // The regular expression used to match filenames
+  /\.(vue|js)$/
+), [ camelCase, upperFirst ])
+```
+
+```js
+// src/views/home.vue
+import components from '../components'
+
+const { AppAlerts, AppLoader } = components
+```
+
+The *catch*: can get more verbose than it should be when importing the components in the view
