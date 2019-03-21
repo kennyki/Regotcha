@@ -253,6 +253,9 @@ export default requireAll(require.context(
 import components from '../components'
 
 const { AppAlerts, AppLoader } = components
+
+// or
+const { AppAlerts, AppLoader } = require('../components').default
 ```
 
-The *catch*: can get more verbose than it should be when importing the components in the view
+The *catch*: can be less-readable when importing the components in the view
