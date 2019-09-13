@@ -1,8 +1,14 @@
 # Bootstrap
 
-::: warning
-This is referring to Bootstrap 4.x
+::: tip
+[Bootstrap](https://getbootstrap.com/) is an open source toolkit for developing with HTML, CSS, and JS.
+
+Note: This is referring to Bootstrap 4.x
 :::
+
+| Table of Contents |
+|:------------------|
+| [[toc]] |
 
 ## Adding vertical divider
 

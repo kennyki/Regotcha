@@ -1,8 +1,14 @@
 # AngularJS
 
-::: warning
-This is referring to AngularJS 1.x
+::: tip
+[AngularJS](https://angularjs.org/) is what HTML would have been, had it been designed for building web-apps. Declarative templates with data-binding, MVW, MVVM, MVC, dependency injection and great testability story all implemented with pure client-side JavaScript!
+
+Note: This is referring to version 1.x
 :::
+
+| Table of Contents |
+|:------------------|
+| [[toc]] |
 
 ## Setting ng-model with object-type value for ng-options
 
