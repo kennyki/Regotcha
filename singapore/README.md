@@ -1,5 +1,9 @@
 # Singapore
 
+::: tip
+General matters in Singapore, the red dot.
+:::
+
 | Table of Contents |
 |:------------------|
 | [[toc]] |

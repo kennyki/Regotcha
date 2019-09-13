@@ -1,5 +1,9 @@
 # Heroku
 
+::: tip
+[Heroku](https://www.heroku.com/) is a platform as a service (PaaS) that enables developers to build, run, and operate applications entirely in the cloud.
+:::
+
 | Table of Contents |
 |:------------------|
 | [[toc]] |

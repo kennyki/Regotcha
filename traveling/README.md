@@ -1,5 +1,9 @@
 # Traveling
 
+::: tip
+General practices when traveling to places.
+:::
+
 | Table of Contents |
 |:------------------|
 | [[toc]] |

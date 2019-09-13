@@ -1,5 +1,9 @@
 # Family
 
+::: tip
+General practices on family matters.
+:::
+
 | Table of Contents |
 |:------------------|
 | [[toc]] |

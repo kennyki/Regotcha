@@ -1,5 +1,9 @@
 # Coding
 
+::: tip
+General practice when coding software programs.
+:::
+
 | Table of Contents |
 |:------------------|
 | [[toc]] |

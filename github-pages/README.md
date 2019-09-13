@@ -1,5 +1,9 @@
 # GitHub Pages
 
+::: tip
+[GitHub Pages](https://pages.github.com/) generates and hosts websites for your projects directly from GitHub repository.
+:::
+
 | Table of Contents |
 |:------------------|
 | [[toc]] |

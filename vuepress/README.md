@@ -1,5 +1,9 @@
 # VuePress
 
+::: tip
+[VuePress](https://github.com/vuejs/vuepress) is a minimalistic Vue-powered static site generator
+:::
+
 | Table of Contents |
 |:------------------|
 | [[toc]] |

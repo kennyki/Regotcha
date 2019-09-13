@@ -1,5 +1,10 @@
 # TestCafe
 
+::: tip
+[TestCafe](https://devexpress.github.io/testcafe/) is a node.js tool to automate
+end-to-end web testing with tests written in JS or TypeScript, run them and view results. TestCafe runs on Windows, MacOS, and Linux and takes 1 minute to set up.
+:::
+
 | Table of Contents |
 |:------------------|
 | [[toc]] |

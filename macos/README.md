@@ -1,5 +1,9 @@
 # macOS
 
+::: tip
+[macOS](https://en.wikipedia.org/wiki/MacOS) (previously Mac OS X and later OS X) is a series of graphical operating systems developed and marketed by Apple Inc.
+:::
+
 | Table of Contents |
 |:------------------|
 | [[toc]] |

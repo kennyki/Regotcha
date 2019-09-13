@@ -1,5 +1,9 @@
 # Node.js
 
+::: tip
+[Node.js](https://nodejs.org/) is a JavaScript runtime built on Chrome's V8 JavaScript engine.
+:::
+
 | Table of Contents |
 |:------------------|
 | [[toc]] |

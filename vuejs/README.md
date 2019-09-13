@@ -1,7 +1,9 @@
 # VueJS
 
-::: warning
-This is referring to VueJS 2.x
+::: tip
+[Vue.js](https://vuejs.org/) - The Progressive JavaScript Framework
+
+Note: This is referring to VueJS 2.x
 :::
 
 | Table of Contents |

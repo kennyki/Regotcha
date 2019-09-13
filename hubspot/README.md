@@ -1,5 +1,9 @@
 # HubSpot
 
+::: tip
+[HubSpot](https://www.hubspot.com/) offers a full platform of marketing, sales, customer service, and CRM software — plus the methodology, resources, and support — to help businesses grow better. Get started with free tools, and upgrade as you grow.
+:::
+
 | Table of Contents |
 |:------------------|
 | [[toc]] |

@@ -1,5 +1,9 @@
 # SCSS
 
+::: tip
+[SCSS](https://sass-lang.com/) (SASS 3) is the most mature, stable, and powerful professional grade CSS extension language in the world.
+:::
+
 | Table of Contents |
 |:------------------|
 | [[toc]] |
