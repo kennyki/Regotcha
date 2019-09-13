@@ -1,5 +1,9 @@
 # CSS
 
+| Table of Contents |
+|:------------------|
+| [[toc]] |
+
 ## Truncate long text and replace with ellipsis/dots
 
 ```css

@@ -1,5 +1,9 @@
 # Node.js
 
+| Table of Contents |
+|:------------------|
+| [[toc]] |
+
 ## Ensure .env file exists before loading it
 
 If you use the [dotenv package](https://github.com/motdotla/dotenv) and if there is no existing `.env` file in your deployment machine (could happen), things will fail.

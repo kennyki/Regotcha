@@ -1,5 +1,9 @@
 # GitHub Pages
 
+| Table of Contents |
+|:------------------|
+| [[toc]] |
+
 ## Add custom domain with name.com
 
 This site was hosted on GitHub Pages and its custom domain was added thru name.com

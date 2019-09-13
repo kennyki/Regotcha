@@ -1,5 +1,9 @@
 # Coding
 
+| Table of Contents |
+|:------------------|
+| [[toc]] |
+
 ## Include/exclude folder during search in Atom.io
 
 1. Ctrl/Cmd + Shift + F

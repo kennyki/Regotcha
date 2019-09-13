@@ -1,5 +1,9 @@
 # macOS
 
+| Table of Contents |
+|:------------------|
+| [[toc]] |
+
 ## Beware of file name case sensitivity
 
 If you're using the common *Mac OS Extended (Journaled)* file system, keep in mind that it's [case insensitive but  case preserving](https://apple.stackexchange.com/a/22304).

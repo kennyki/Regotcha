@@ -1,5 +1,9 @@
 # TestCafe
 
+| Table of Contents |
+|:------------------|
+| [[toc]] |
+
 ::: tip
 This is referring to the end-to-end testing tool at [https://devexpress.github.io/testcafe](https://devexpress.github.io/testcafe)
 :::

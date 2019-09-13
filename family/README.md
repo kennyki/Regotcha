@@ -1,5 +1,9 @@
 # Family
 
+| Table of Contents |
+|:------------------|
+| [[toc]] |
+
 ## Nice-to-have items for infant
 
 These are not essentials but absolutely time and energy savers if you can afford them:

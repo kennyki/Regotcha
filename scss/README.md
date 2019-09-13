@@ -1,5 +1,9 @@
 # SCSS
 
+| Table of Contents |
+|:------------------|
+| [[toc]] |
+
 ## Use color codes as map keys
 
 ```scss

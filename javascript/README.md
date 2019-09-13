@@ -1,5 +1,9 @@
 # Javascript
 
+| Table of Contents |
+|:------------------|
+| [[toc]] |
+
 ## Chaining rejection in promises
 
 Consider the following code snippet:

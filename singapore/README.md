@@ -1,5 +1,9 @@
 # Singapore
 
+| Table of Contents |
+|:------------------|
+| [[toc]] |
+
 ## Foreign employees must declare and pay GST for all goods brought into the country
 
 I once was intercepted by the immigration officer when carrying a memory foam pillow through the custom. Without much clue of what's happening and filling in some forms later, I was brought to the tax counter to make addition payment for GST.

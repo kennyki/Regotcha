@@ -1,5 +1,9 @@
 # HTML
 
+| Table of Contents |
+|:------------------|
+| [[toc]] |
+
 ## Add space between span elements
 
 To render `Hello world`:

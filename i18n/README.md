@@ -4,6 +4,10 @@
 I18N is an abbreviation of [InternationalizatioN](http://whatis.techtarget.com/definition/internationalization-I18N)
 :::
 
+| Table of Contents |
+|:------------------|
+| [[toc]] |
+
 ## Use GetText instead of key-value for string annotations
 
 In general there are 2 way to annotate strings for translations:

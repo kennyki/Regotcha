@@ -1,5 +1,9 @@
 # MongoDB
 
+| Table of Contents |
+|:------------------|
+| [[toc]] |
+
 ## Backup production database and restore it to development environment
 
 #### Backup

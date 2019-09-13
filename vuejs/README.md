@@ -4,6 +4,10 @@
 This is referring to VueJS 2.x
 :::
 
+| Table of Contents |
+|:------------------|
+| [[toc]] |
+
 ## Route guarding
 
 [Vue Router](https://router.vuejs.org/guide/advanced/navigation-guards.html) provides 3 ways to guard your routes, but I find that `per-route` guard is more succinct and easier to maintain:

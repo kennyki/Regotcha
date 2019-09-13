@@ -1,5 +1,9 @@
 # Webpack
 
+| Table of Contents |
+|:------------------|
+| [[toc]] |
+
 ## Add custom environment variable file
 
 When adding Firebase to a [VueJS Webpack](https://github.com/vuejs-templates/webpack) project there's a `firebase.json` being generated - which contains project properties needed for the application:

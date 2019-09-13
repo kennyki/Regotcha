@@ -1,5 +1,9 @@
 # Traveling
 
+| Table of Contents |
+|:------------------|
+| [[toc]] |
+
 ## Things to note when traveling in Tokyo on February (end of winter)
 
 1. It is still cold.

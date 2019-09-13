@@ -1,5 +1,9 @@
 # VuePress
 
+| Table of Contents |
+|:------------------|
+| [[toc]] |
+
 ## Auto-deploy to GitHub Pages with Travis CI
 
 The VuePress [guide](https://vuepress.vuejs.org/guide/deploy.html#github-pages) has a generic `deploy.sh` but it's not needed for [Travis](https://travis-ci.com/).

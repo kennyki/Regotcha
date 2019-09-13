@@ -1,5 +1,9 @@
 # HubSpot
 
+| Table of Contents |
+|:------------------|
+| [[toc]] |
+
 ## Embedding CTA buttons in a Single Page App with support for I18N and font icons
 
 You can create and embed CTA buttons following this [guide](https://knowledge.hubspot.com/cta-user-guide-v2/how-to-add-a-call-to-action-cta-to-a-non-hubspot-page) easily for static sites like Wordpress, but not for a SPA like AngularJS. Things to note:

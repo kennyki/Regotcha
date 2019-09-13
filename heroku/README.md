@@ -1,5 +1,9 @@
 # Heroku
 
+| Table of Contents |
+|:------------------|
+| [[toc]] |
+
 ## Import Postgres database from Heroku for local development
 
 Assuming the heroku app is `myapp` and database name is `myapp_db`:
