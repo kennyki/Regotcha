@@ -16,6 +16,7 @@ module.exports = {
       '/coding/',
       '/css/',
       '/family/',
+      '/git/',
       '/github-pages/',
       '/heroku/',
       '/html/',
